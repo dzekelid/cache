@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS ElastiCache
 x-complete: 1
@@ -805,4 +804,3 @@ paths:
           description: OK
       tags:
       - Cache Security Groups
----

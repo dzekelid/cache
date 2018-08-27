@@ -8,11 +8,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Cache
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cache/master/_listings/google-compute-engine/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Compute Engine - Invalidate Cache
+  x-api-slug: projectglobalurlmapsurlmapinvalidatecache-post
+  description: Initiates a cache invalidation operation, invalidating the specified
+    path, scoped to the specified UrlMap.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cache/master/_listings/google-compute-engine/projectglobalurlmapsurlmapinvalidatecache-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.vision.api.gallery.streamdata.io
